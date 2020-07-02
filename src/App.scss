@@ -1,0 +1,45 @@
+@import './scss/variables';
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: $dark-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: $dark-color;
+  padding: 10vh 0;
+  text-align: center;
+}
+
+.section {
+  padding: 0 10vw;
+}

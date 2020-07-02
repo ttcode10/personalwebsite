@@ -1,0 +1,24 @@
+@import './../../scss/variables';
+
+.techstack {
+  height: 90vh;
+  background-color: $light-color;
+}
+
+.logos {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-item {
+  height: 130px;
+  width: auto;
+  margin: 30px;
+}
+
+img {
+  height: 35%;
+  width: auto;
+}

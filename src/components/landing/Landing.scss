@@ -1,0 +1,66 @@
+@import './../../scss/variables';
+
+.landing {
+  position: relative;
+  background: url('./../../image/bg.png') no-repeat center center/cover;
+  height: 100vh;
+}
+
+
+.dark-overlay {
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  left: -8vw;
+}
+
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vw;
+
+  >h2 {
+    font-size: 3rem;
+  }
+
+  >h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+  >h2, h3 {
+    color: $primary-color;
+  }
+
+  >p {
+    color: $gray-color;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+.hello {
+  width: 60vh;
+  height: 60vh;
+  border-radius: 50%;
+  background-color: rgba($color: $primary-color, $alpha: 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.script-heading {
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 1.6;
+  color: $white-color;
+}
