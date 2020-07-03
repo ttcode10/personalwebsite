@@ -17,22 +17,22 @@
 
 .container {
   display: flex;
-  position: relative;
-  left: -8vw;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .personal-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5vw;
+  margin-left: 5vmin;
 
   >h2 {
-    font-size: 3rem;
+    font-size: 6vmin;
   }
 
   >h3 {
-    font-size: 1.8rem;
+    font-size: 3.5vmin;
     font-weight: 300;
   }
 
@@ -42,25 +42,21 @@
 
   >p {
     color: $gray-color;
-    font-size: 1.2rem;
+    font-size: 2.5vmin;
     font-weight: 300;
   }
 }
 
 .hello {
-  width: 60vh;
-  height: 60vh;
+  width: 60vmin;
+  height: 60vmin;
   border-radius: 50%;
   background-color: rgba($color: $primary-color, $alpha: 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.script-heading {
-  font-family: 'Lobster', sans-serif;
-  font-weight: 400;
-  font-size: 10rem;
-  line-height: 1.6;
-  color: $white-color;
+  .landing-heading {
+    font-size: 20vmin;
+  }
 }

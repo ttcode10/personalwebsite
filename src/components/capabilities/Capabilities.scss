@@ -1,0 +1,42 @@
+@import './../../scss/variables';
+
+.capabilities {
+  background-color: $white-color;
+  min-height: 75vmin;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  background-color: $white-color;
+  border-radius: 0.5rem;
+  width: 320px;
+  padding: 2rem;
+  margin: 1.5rem;
+  transition: transform ease-out 300ms;
+  box-shadow: 0 2px 39px 9px #E5E8E8;
+
+  &:hover {
+    transform: translateY(-2rem) scale(1.1);
+    transition: transform ease-out 300ms;
+    box-shadow: 0 2px 39px 9px #C2EFFB;
+  }
+
+  h3 {
+    line-height: 5rem;
+  }
+
+  img {
+    padding: 0.5rem;
+    width: auto;
+    height: 100px;
+  }
+}

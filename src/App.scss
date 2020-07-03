@@ -36,10 +36,18 @@ img {
   font-size: 1.8rem;
   line-height: 1.6;
   color: $dark-color;
-  padding: 10vh 0;
+  padding: 10vmin 0;
   text-align: center;
 }
 
 .section {
-  padding: 0 10vw;
+  padding: 0 10vmin 5vmin;
+}
+
+.script-heading {
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 1.6;
+  color: $white-color;
 }

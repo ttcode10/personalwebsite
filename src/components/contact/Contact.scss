@@ -1,0 +1,33 @@
+@import './../../scss/variables';
+
+.contact {
+  background-color: $primary-color;
+  min-height: 40vmin;
+  padding-top: 5rem;
+
+  .script-heading {
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 60px;
+    margin: 5rem 2rem;
+    cursor: pointer;
+  }
+
+  .contact-logo-item {
+    transition: ease-out 300ms;
+
+    &:hover {
+      filter: #666666;
+      transition: ease-out 300ms;
+    }
+  }
+
+}
