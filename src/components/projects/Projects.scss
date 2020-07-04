@@ -1,0 +1,25 @@
+@import './../../scss/variables';
+
+.projects {
+  min-height: 75vmin;
+  background-color: $light-color;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  background-color: $white-color;
+  width: 70%;
+  max-width: 100vmin;
+  
+
+  img {
+    width: 0.3*100vmin;
+  }
+}

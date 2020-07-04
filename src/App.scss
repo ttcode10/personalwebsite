@@ -51,3 +51,19 @@ img {
   line-height: 1.6;
   color: $white-color;
 }
+
+.card {
+  background-color: $white-color;
+  border-radius: 0.5rem;
+  width: 320px;
+  padding: 2rem;
+  margin: 1.5rem;
+  transition: transform ease-out 300ms;
+  box-shadow: 0 2px 39px 9px #E5E8E8;
+
+  &:hover {
+    transform: translateY(-2rem) scale(1.1);
+    transition: transform ease-out 300ms;
+    box-shadow: 0 2px 39px 9px #C2EFFB;
+  }
+}

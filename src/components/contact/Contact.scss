@@ -18,16 +18,17 @@
   img {
     width: 60px;
     margin: 5vmin 2vmin;
+    transition: ease-in 300ms;
     cursor: pointer;
+
+    &:hover {
+      filter: invert(100%) sepia(17%) saturate(3387%) hue-rotate(176deg) brightness(102%) contrast(98%);
+      transition: ease-in 300ms;
+    }
   }
 
   .contact-logo-item {
     transition: ease-out 300ms;
-
-    &:hover {
-      filter: #666666;
-      transition: ease-out 300ms;
-    }
   }
 
 }
