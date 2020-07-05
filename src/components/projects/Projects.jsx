@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="project-cards">
         <div className="project-card">
           <div className="wrapper-left">
-            <img src={project1} />
+            <img src={project1} alt='project1' />
           </div>
           <div className="wrapper-right">
             <h3>DevHub: Social media for devs</h3>
