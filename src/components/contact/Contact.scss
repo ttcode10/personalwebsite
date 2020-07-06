@@ -18,9 +18,28 @@
 
   .contact-logo-item {
     transition: ease-out 300ms;
+    position: relative;
+
+    .contact-tooltip {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      width: 8rem;
+      height: fit-content;
+      box-sizing: border-box;
+      padding: 0.5rem;
+      border-radius: 5px;
+      color: $white-color;
+      position: absolute;
+      z-index: 1;
+      top: -0.7rem;
+      left: -1.2rem;
+    }
 
     img {
-      width: 60px;
+      // width: 60px;
       margin: 5vmin 2vmin;
       transition: ease-in 300ms;
       cursor: pointer;
@@ -32,17 +51,3 @@
     }
   }
 }
-
-// .contact-tooltip {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: rgba($color: #000000, $alpha: 0.5);
-//   width: fit-content;
-//   height: fit-content;
-//   padding: 0.5rem;
-//   border-radius: 5px;
-//   color: $white-color;
-//   position: absolute;
-//   z-index: 1;
-// }
