@@ -7,8 +7,7 @@ import github from './../../icons/github.svg';
 
 const Contact = () => {
   const [clickboard, setClickboard] = useState({
-    value: '',
-    copied: false,
+    copied: false
   });
 
   const hideTooltip = () => {
