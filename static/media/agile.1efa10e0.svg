@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="41px" viewBox="0 0 48 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-1817.000000, -1501.000000)" fill="#666666" fill-rule="nonzero">
+            <g id="agile" transform="translate(1817.000000, 1501.000000)">
+                <path d="M22.941,31.311 C29.394,31.143 34.575,25.602 34.575,18.789 C34.575,11.871 29.232,6.264 22.641,6.264 C16.392,6.264 11.265,11.301 10.749,17.718 L13.638,17.718 L7.959,25.389 L2.277,17.718 L4.767,17.718 C5.295,7.839 13.098,0 22.641,0 C32.529,0 40.542,8.412 40.542,18.789 C40.5626793,23.3719668 38.9479218,27.812018 35.988,31.311 L40.542,31.311 L40.542,28.818 L48,34.659 L40.545,40.5 L40.545,37.608 L0,37.608 L0,31.311 L22.941,31.311 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
