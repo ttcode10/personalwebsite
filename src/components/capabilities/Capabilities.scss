@@ -5,13 +5,13 @@
   min-height: 75vmin;
 }
 
-.capability-cards {
+.capability__cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.capability-card {
+.capability__card {
   display: flex;
   flex-direction: column;
   align-items: center;

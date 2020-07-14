@@ -5,22 +5,22 @@
   min-height: 40vmin;
   padding-top: 5rem;
 
-  .contact-heading {
+  .contact__heading {
     text-align: center;
     font-size: 10vmin;
   }
 }
 
-.contact-logos {
+.contact__logos {
   display: flex;
   justify-content: center;
 
 
-  .contact-logo-item {
+  .contact__logo-item {
     transition: ease-out 300ms;
     position: relative;
 
-    .contact-tooltip {
+    .contact__tooltip {
       display: flex;
       justify-content: center;
       align-items: center;

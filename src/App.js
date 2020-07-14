@@ -9,8 +9,6 @@ import Projects from './components/projects/Projects';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
       <Landing />
       <Techstack />
       <Projects />

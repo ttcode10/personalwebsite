@@ -20,9 +20,9 @@ const Contact = () => {
 
   return (
     <section className='contact section'>
-      <h1 className='script-heading contact-heading'>Keep in touch</h1>
-      <ul className='contact-logos'>
-        <li className='contact-logo-item'>
+      <h1 className='script__heading contact__heading'>Keep in touch</h1>
+      <ul className='contact__logos'>
+        <li className='contact__logo-item'>
           <CopyToClipboard text='mail2richardpan@gmail.com' onCopy={() => {
             setClickboard({
               copied: true,
@@ -32,15 +32,15 @@ const Contact = () => {
             <img src={email} alt="Email" />
           </CopyToClipboard>
           {
-            clickboard.copied ? <div className='contact-tooltip'>Email copied</div> : null
+            clickboard.copied ? <div className='contact__tooltip'>Email copied</div> : null
           }
         </li>
-        <li className='contact-logo-item'>
+        <li className='contact__logo-item'>
           <a href="https://www.linkedin.com/in/richard--pan/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" />
           </a>
         </li>
-        <li className='contact-logo-item'>
+        <li className='contact__logo-item'>
           <a href="https://github.com/ttcode10" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" />
           </a>
