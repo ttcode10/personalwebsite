@@ -28,7 +28,10 @@ after_script:
   - git init
   - git add .
   - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`" # 提交记录包含时间 
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master #GH_TOKEN是在Travis中配置环境变量的名称
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages #GH_TOKEN是在Travis中配置环境变量的名称
 env:
  global:
    - GH_REF: github.com/ttcode10/personalwebsite.github.io.git #设置GH_REF,换成自己用户名和仓库名
+   #- GH_REF: github.com/ttcode10/personalwebsite.git #设置GH_REF,换成自己用户名和仓库名
+
+   
